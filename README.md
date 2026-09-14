@@ -37,23 +37,68 @@ se instala sozinho, com banco de dados embutido e sem depender de internet para 
 
 ## Telas
 
-<table>
-  <tr>
-    <td align="center"><img src="imagens/venda.png" width="260"><br><sub>Finalizar venda: formas de pagamento, troco e NFC-e</sub></td>
-    <td align="center"><img src="imagens/novo-produto.png" width="260"><br><sub>Cadastro de produto com dados fiscais</sub></td>
-    <td align="center"><img src="imagens/fechar-caixa.png" width="260"><br><sub>Fechamento com conferência esperado × real</sub></td>
-  </tr>
-</table>
+> Todas as telas usam dados de demonstração: loja, usuários e vendas fictícios.
 
+### Dashboard
 <p align="center">
-  <img src="imagens/abertura-caixa.png" width="640"><br>
-  <sub>Abertura de caixa com saldo inicial em dinheiro e maquininha</sub>
+  <img src="imagens/dashboard.png" width="900"><br>
+  <sub>Caixa aberto, faturamento do dia, alertas de estoque, resumo por forma de pagamento e vendas recentes</sub>
+</p>
+
+### Venda no balcão
+<p align="center">
+  <img src="imagens/pdv.png" width="900"><br>
+  <sub>Grade por categoria, busca por nome ou código de barras, carrinho e pedidos em espera</sub>
 </p>
 
 <table>
   <tr>
-    <td align="center"><img src="imagens/pedido-espera.png" width="360"><br><sub>Pedidos em espera (mesa/cliente)</sub></td>
-    <td align="center"><img src="imagens/estoque-abas.png" width="460"><br><sub>Estoque avançado: alertas, simulação, preditiva, entrada de NF-e e compras</sub></td>
+    <td align="center"><img src="imagens/pagamento.png" width="260"><br><sub>Pagamento com troco e emissão de NFC-e</sub></td>
+    <td align="center"><img src="imagens/pedido-espera.png" width="300"><br><sub>Pedido em espera por cliente ou mesa</sub></td>
+    <td align="center"><img src="imagens/login.png" width="300"><br><sub>Acesso por usuário</sub></td>
+  </tr>
+</table>
+
+### Caixa
+<p align="center">
+  <img src="imagens/caixa.png" width="900"><br>
+  <sub>Sessão, saldo inicial, resumo financeiro por forma de pagamento, sangria e movimentos</sub>
+</p>
+
+<table>
+  <tr>
+    <td align="center"><img src="imagens/abertura-caixa.png" width="420"><br><sub>Abertura com saldo em dinheiro e maquininha</sub></td>
+    <td align="center"><img src="imagens/fechar-caixa.png" width="300"><br><sub>Fechamento com conferência esperado × real</sub></td>
+  </tr>
+</table>
+
+### Produtos e estoque
+<table>
+  <tr>
+    <td align="center"><img src="imagens/produtos.png" width="440"><br><sub>Catálogo com código de barras, preço, estoque e mínimo</sub></td>
+    <td align="center"><img src="imagens/novo-produto.png" width="260"><br><sub>Cadastro com dados fiscais (NCM, CEST, CFOP, CSOSN)</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="imagens/estoque.png" width="440"><br><sub>Visão geral: abaixo do mínimo, zerados e ações rápidas</sub></td>
+    <td align="center"><img src="imagens/estoque-avancado.png" width="440"><br><sub>Controle avançado: alertas, simulação, preditiva, NF-e e compras</sub></td>
+  </tr>
+</table>
+
+<p align="center">
+  <img src="imagens/entrada-nfe.png" width="820"><br>
+  <sub>Entrada de mercadoria por NF-e: busca na SEFAZ, chave de acesso ou arquivo XML</sub>
+</p>
+
+### Gestão, fiscal e acessos
+<p align="center">
+  <img src="imagens/relatorio-estoque.png" width="900"><br>
+  <sub>Relatórios gerencial, de vendas, financeiro, de estoque e de maquininhas, com exportação</sub>
+</p>
+
+<table>
+  <tr>
+    <td align="center"><img src="imagens/fiscal.png" width="440"><br><sub>Configuração fiscal: empresa, certificado, e-mail, notas e impressora</sub></td>
+    <td align="center"><img src="imagens/controle-acessos.png" width="440"><br><sub>Permissões por usuário e por tela</sub></td>
   </tr>
 </table>
 
